@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "parsers"
+version = "0.1.0"
+description = ""
+authors = ["Egor <egorkononec64@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+gspread = "^6.1.0"
+python-dotenv = "^1.0.1"
+botasaurus = "^3.2.24"
+npm = "^0.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
